@@ -362,3 +362,26 @@ h2 {
   font-size: 12px;
   padding: 0 10px;
 }
+
+.btn-facebook, .btn-twitter, .btn-google, .btn-yahoo, .btn-email, .btn-openid, .btn-vk, .btn-github, .btn-microsoft, .btn-weibo, .btn-instagram, .btn-bitbucket, .btn-linkedin {min-width: 35px;color: #fff;}
+
+.btn-facebook {background-color: #3B5998 !important;}
+.btn-twitter {background-color: #55ACEE !important;}
+.btn-google {background-color: #DD4B39 !important;}
+.btn-yahoo {background-color: #720E9E !important;}
+.btn-email {background-color: #feb900 !important;}
+.btn-openid {background-color: #F7931E !important;}
+.btn-vk {background-color: #587EA3 !important;}
+.btn-github {background-color: #444444 !important;}
+.btn-microsoft {background-color: #2672EC !important;}
+.btn-linkedin {background-color: #007BB6 !important;}
+.btn-bitbucket {background-color: #205081 !important;}
+.btn-instagram {background-color: #3F729B !important;}
+.btn-weibo {background-color: #e8162d !important;}
+
+.text-xs {font-size: 75%;color: #dce4ec;}
+.descr-xs {line-height: 1em;}
+
+.text-sm {font-size: 80%;color: #2c3e50;}
+.descr-sm {line-height: 1em;}
+/*TODO cleanup*/

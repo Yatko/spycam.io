@@ -168,6 +168,45 @@ var SettingsWindow = React.createClass({
               <Input bsSize="small" valueLink={this.linkState('config.action')} type="text" addonBefore="commandset" placeholder="e.g. foscam" />
             </Col>
           </Row>
+          <Row>
+          	<Col sm={4}>
+          		<div className="btn-group">
+	          		<button type="button" className="btn btn-success btn-sm">Save for later</button>
+	          		<button type="button" className="btn btn-default btn-sm">Presets</button>
+          		</div>
+          	</Col>
+          	<Col sm={8} className="descr-sm">
+          		<p><small className="text-sm">Advanced features like saving of presets or settings require database connection. <a href="#">Click here to create your private space.</a> <sup>info</sup></small></p>
+          	</Col>
+          </Row>
+          <Row className="hidden">{/* TODO reveal onClick */}
+          	<Col sm={4} className="text-left descr-xs">
+          			<small className="text-xs">Authenticate using your favorite provider or just use your email.</small>
+          	</Col>
+          	<Col sm={8}>
+          		<div className="btn-toolbar">
+          			
+	          		<button type="button" className="btn btn-facebook btn-sm"><i className="fa fa-facebook"></i></button>
+	          		<button type="button" className="btn btn-google btn-sm"><i className="fa fa-google-plus"></i></button>
+	          		<button type="button" className="btn btn-twitter btn-sm"><i className="fa fa-twitter"></i></button>
+	          		
+	          		<button type="button" className="btn btn-linkedin btn-sm"><i className="fa fa-linkedin"></i></button>
+	          		<button type="button" className="btn btn-github btn-sm"><i className="fa fa-github"></i></button>
+	          		<button type="button" className="btn btn-email btn-sm"><i className="fa fa-envelope-o"></i></button>
+	          		
+	          		<button type="button" className="btn btn-vk btn-sm"><i className="fa fa-vk"></i></button>
+	          		<button type="button" className="btn btn-microsoft btn-sm"><i className="fa fa-windows"></i></button>
+	          		<button type="button" className="btn btn-yahoo btn-sm"><i className="fa fa-yahoo"></i></button>
+{/*		          		
+          			<button type="button" className="btn btn-bitbucket btn-sm"><i className="fa fa-bitbucket"></i></button>
+	          		<button type="button" className="btn btn-instagram btn-sm"><i className="fa fa-instagram"></i></button>
+	          		<button type="button" className="btn btn-weibo btn-sm"><i className="fa fa-weibo"></i></button>
+	          		
+	          		<button type="button" className="btn btn-openid btn-sm"><i className="fa fa-openid"></i></button>
+*/}
+          		</div>
+          	</Col>
+          </Row>
         </div>
         <div className="modal-footer">
           <Row>
