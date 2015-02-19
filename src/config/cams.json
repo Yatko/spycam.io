@@ -1,0 +1,26 @@
+[
+	{
+		"brand": "Foscam",
+		"models": [
+			{"name": "fi8910w", "config": "config/foscam/fi8910w"},
+			{"name": "fi9821w", "config": "config/foscam/fi9821w"},
+			{"name": "fi9831w", "config": "config/foscam/fi9831w"},
+			{"name": "fi8905w", "config": "config/foscam/fi8905w"},
+			{"name": "fi8904w", "config": "config/foscam/fi8904w"}
+		]
+	},
+	{
+		"brand": "Hikvision",
+		"models": [
+			{"name": "ds-2cd2032-i", "config": "config/hikvision/ds-2cd2032-i"},
+			{"name": "ds-2cd2732f-is", "config": "config/hikvision/ds-2cd2732f-is"}
+		]
+	},
+	{
+		"brand": "Tenvis",
+		"models": [
+			{"name": "iprobot3", "config": "config/tenvis/iprobot3"},
+			{"name": "jpt3815w", "config": "config/tenvis/jpt3815w"}
+		]
+	}
+]

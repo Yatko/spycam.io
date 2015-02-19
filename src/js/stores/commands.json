@@ -1,0 +1,438 @@
+[
+  {
+    "cmd": "moveUpLeft",
+    "tooltip": "Top Left",
+    "icon": "fa-arrow-circle-left",
+    "type": "a",
+    "instant": true,
+    "group": "column-1"
+  },
+  {
+    "cmd": "moveUp",
+    "tooltip": "Move Up",
+    "icon": "fa-arrow-circle-right",
+    "type": "a",
+    "instant": true,
+    "group": "column-1"
+  },
+  {
+    "cmd": "moveUpRight",
+    "tooltip": "Top Right",
+    "icon": "fa-arrow-circle-right",
+    "type": "a",
+    "instant": true,
+    "group": "column-1"
+  },
+  {
+    "cmd": "moveLeft",
+    "tooltip": "Move Left",
+    "icon": "fa-arrow-circle-left",
+    "type": "a",
+    "instant": true,
+    "group": "column-1"
+  },
+  {
+    "cmd": "moveStop",
+    "tooltip": "Stop",
+    "icon": "fa-stop accent",
+    "type": "a",
+    "instant": true,
+    "group": "column-1"
+  },
+  {
+    "cmd": "moveRight",
+    "tooltip": "Move Right",
+    "icon": "fa-arrow-circle-right",
+    "type": "a",
+    "instant": true,
+    "group": "column-1"
+  },
+  {
+    "cmd": "moveDownLeft",
+    "tooltip": "Bottom Left",
+    "icon": "fa-arrow-circle-left",
+    "type": "a",
+    "instant": true,
+    "group": "column-1"
+  },
+  {
+    "cmd": "moveDown",
+    "tooltip": "Move Down",
+    "icon": "fa-arrow-circle-down",
+    "type": "a",
+    "instant": true,
+    "group": "column-1"
+  },
+  {
+    "cmd": "moveDownRight",
+    "tooltip": "Bottom Right",
+    "icon": "fa-arrow-circle-right",
+    "type": "a",
+    "instant": true,
+    "group": "column-1"
+  },
+  {
+    "cmd": "snapPicture",
+    "tooltip": "Snap picture",
+    "icon": "fa-camera",
+    "type": "a",
+    "mime": "image",
+    "instant": true,
+    "group": "column-2"
+  },
+  {
+    "cmd": "snapPicture2",
+    "tooltip": "Snap picture 2",
+    "icon": "fa-video-camera",
+    "type": "a",
+    "mime": "image",
+    "instant": true,
+    "group": "column-2"
+  },
+  {
+    "cmd": "closeInfraLed",
+    "tooltip": "IR",
+    "icon": "fa-lightbulb-o",
+    "sup": "IR",
+    "type": "a",
+    "instant": true,
+    "group": "column-2"
+  },
+  {
+    "cmd": "closeInfraLed",
+    "tooltip": "Off",
+    "icon": "fa-lightbulb-o",
+    "sup": "Off",
+    "type": "a",
+    "instant": true,
+    "group": "column-2"
+  },
+  {
+    "cmd": "flipVideo&isFlip=1",
+    "tooltip": "Flip video",
+    "icon": "fa-arrows-v",
+    "type": "a",
+    "instant": true,
+    "group": "column-2"
+  },
+  {
+    "cmd": "mirrorVideo&isMirror=1",
+    "tooltip": "Mirror video",
+    "icon": "fa-arrows-h",
+    "type": "a",
+    "instant": true,
+    "group": "column-2"
+  },
+  {
+    "cmd": "zoomIn",
+    "tooltip": "Zoom In",
+    "icon": "fa-search-plus",
+    "type": "a",
+    "instant": true,
+    "group": "column-2"
+  },
+  {
+    "cmd": "zoomOut",
+    "tooltip": "Off",
+    "icon": "fa-search-minus",
+    "type": "a",
+    "instant": true,
+    "group": "column-2"
+  },
+  {
+    "cmd": "ptzReset",
+    "tooltip": "PTZ Reset",
+    "icon": "fa-dot-circle-o",
+    "type": "a",
+    "instant": true,
+    "group": "column-2"
+  },
+  {
+    "cmd": "ptzGotoPresetPoint",
+    "tooltip": "Go to Preset Point",
+    "icon": "fa-dot-circle-o",
+    "type": "a",
+    "instant": true,
+    "group": "column-2"
+  },
+  {
+    "cmd": "ptzStartCruise",
+    "tooltip": "Start Cruise",
+    "icon": "fa-repeat",
+    "type": "a",
+    "instant": true,
+    "group": "column-2"
+  },
+  {
+    "cmd": "rebootSystem",
+    "tooltip": "Reboot",
+    "icon": "fa-refresh",
+    "type": "a",
+    "instant": true,
+    "group": "column-2"
+  },
+  {
+    "cmd": "setBrightness",
+    "tooltip": "Brightness",
+    "label": "Brightness",
+    "icon": null,
+    "type": "range",
+    "group": "brightness",
+    "value": 50
+  },
+  {
+    "cmd": "setup",
+    "tooltip": "Setup",
+    "label": "Setup",
+    "type": "a",
+    "group": "additional-row"
+  },
+  {
+    "cmd": "info",
+    "tooltip": "Info",
+    "label": "Info",
+    "type": "a",
+    "group": "additional-row"
+  },
+  {
+    "cmd": "irstatus",
+    "tooltip": "IRStatus",
+    "label": "IRStatus",
+    "type": "a",
+    "group": "additional-row"
+  },
+  {
+    "cmd": "command",
+    "tooltip": "Command",
+    "label": "Command",
+    "type": "a",
+    "group": "additional-row"
+  },
+  {
+    "cmd": "code",
+    "tooltip": "Show code",
+    "icon": "fa-code",
+    "type": "a",
+    "instant": true,
+    "group": "additional-row"
+  },
+  {
+    "cmd": "showStream",
+    "tooltip": "Show stream",
+    "icon": "fa-video-camera",
+    "type": "a",
+    "mime": "rtmp",
+    "instant": true,
+    "group": "additional-row"
+  },
+  {
+    "cmd": "snapPicture2",
+    "tooltip": "Snap picture 2",
+    "icon": "fa-camera",
+    "type": "a",
+    "mime": "image",
+    "instant": true,
+    "group": "additional-row"
+  },
+  {
+    "cmd": "ptzMoveUp",
+    "tooltip": "ptzMoveUp",
+    "label": "ptzMoveUp",
+    "type": "a",
+    "group": "ptz-commands"
+  },
+  {
+    "cmd": "ptzMoveDown",
+    "tooltip": "ptzMoveDown",
+    "label": "ptzMoveDown",
+    "type": "a",
+    "group": "ptz-commands"
+  },
+  {
+    "cmd": "ptzMoveLeft",
+    "tooltip": "ptzMoveLeft",
+    "label": "ptzMoveLeft",
+    "type": "a",
+    "group": "ptz-commands"
+  },
+  {
+    "cmd": "ptzMoveRight",
+    "tooltip": "ptzMoveRight",
+    "label": "ptzMoveRight",
+    "type": "a",
+    "group": "ptz-commands"
+  },
+  {
+    "cmd": "ptzStopRun",
+    "tooltip": "ptzStopRun",
+    "label": "ptzStopRun",
+    "type": "a",
+    "group": "ptz-commands"
+  },
+  {
+    "cmd": "ptzMoveTopLeft",
+    "tooltip": "ptzMoveTopLeft",
+    "label": "ptzMoveTopLeft",
+    "type": "a",
+    "group": "ptz-commands"
+  },
+  {
+    "cmd": "getImageSetting",
+    "tooltip": "Get image settings",
+    "label": "Get image settings",
+    "type": "a",
+    "group": "image"
+  },
+  {
+    "cmd": "resetImageSetting",
+    "tooltip": "Reset image settings",
+    "label": "Reset image settings",
+    "type": "a",
+    "group": "image"
+  },
+  {
+    "cmd": "brightness=",
+    "tooltip": "Set brightness",
+    "label": "Brightness",
+    "type": "range",
+    "group": "image",
+    "value": 50
+  },
+  {
+    "cmd": "contrast=",
+    "tooltip": "Set contrast",
+    "label": "Contrast",
+    "type": "range",
+    "group": "image",
+    "value": 50
+  },
+  {
+    "cmd": "hue=",
+    "tooltip": "Set hue",
+    "label": "Hue",
+    "type": "range",
+    "group": "image",
+    "value": 50
+  },
+  {
+    "cmd": "saturation=",
+    "tooltip": "Set saturation",
+    "label": "Saturation",
+    "type": "range",
+    "group": "image",
+    "value": 50
+  },
+  {
+    "cmd": "sharpness=",
+    "tooltip": "Set sharpness",
+    "label": "Sharpness",
+    "type": "range",
+    "group": "image",
+    "value": 50
+  },
+  {
+    "cmd": "getMirrorAndFlipSetting",
+    "tooltip": "Get mirror & flip setting",
+    "label": "Get mirror & flip setting",
+    "type": "a",
+    "group": "commands-video"
+  },
+  {
+    "cmd": "mirrorVideo&isMirror=",
+    "tooltip": "Mirror video",
+    "label": "Mirror video",
+    "type": "boolean",
+    "group": "commands-video",
+    "value": 0
+  },
+  {
+    "cmd": "flipVideo&isFlip=",
+    "tooltip": "Flip video",
+    "label": "Flip video",
+    "type": "boolean",
+    "group": "commands-video",
+    "value": 0
+  },
+  {
+    "cmd": "getInfraLedConfig",
+    "tooltip": "Get Infra Led Config",
+    "label": "Get Infra Led Config",
+    "type": "a",
+    "group": "commands-video"
+  },
+  {
+    "cmd": "setInfraLedConfig&mode=",
+    "tooltip": "Set Infra Led Config",
+    "label": "Set Infra Led Config",
+    "type": "boolean",
+    "group": "commands-video",
+    "value": 0
+  },
+  {
+    "cmd": "openInfraLed",
+    "tooltip": "Open Infra Led",
+    "label": "Open Infra Led",
+    "type": "a",
+    "group": "commands-video"
+  },
+  {
+    "cmd": "closeInfraLed",
+    "tooltip": "Close Infra Led",
+    "label": "Close Infra Led",
+    "type": "a",
+    "group": "commands-video"
+  },
+  {
+    "cmd": "getMirrorAndFlipSetting",
+    "tooltip": "Get mirror & flip setting",
+    "label": "Get mirror & flip setting",
+    "type": "a",
+    "group": "commands-other"
+  },
+  {
+    "cmd": "mirrorVideo&isMirror=",
+    "tooltip": "Mirror video",
+    "label": "Mirror video",
+    "type": "boolean",
+    "group": "commands-other",
+    "value": 0
+  },
+  {
+    "cmd": "flipVideo&isFlip=",
+    "tooltip": "Flip video",
+    "label": "Flip video",
+    "type": "boolean",
+    "group": "commands-other",
+    "value": 0
+  },
+  {
+    "cmd": "getInfraLedConfig",
+    "tooltip": "Get Infra Led Config",
+    "label": "Get Infra Led Config",
+    "type": "a",
+    "group": "commands-other"
+  },
+  {
+    "cmd": "setInfraLedConfig&mode=",
+    "tooltip": "Set Infra Led Config",
+    "label": "Set Infra Led Config",
+    "type": "boolean",
+    "group": "commands-other",
+    "value": 0
+  },
+  {
+    "cmd": "openInfraLed",
+    "tooltip": "Open Infra Led",
+    "label": "Open Infra Led",
+    "type": "a",
+    "group": "commands-other"
+  },
+  {
+    "cmd": "closeInfraLed",
+    "tooltip": "Close Infra Led",
+    "label": "Close Infra Led",
+    "type": "a",
+    "group": "commands-other"
+  }
+
+]

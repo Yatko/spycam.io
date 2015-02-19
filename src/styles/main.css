@@ -1,0 +1,364 @@
+.margintop {
+  margin-top: 20px;
+}
+.navbar-inverse {
+  background-color: #484848 !important
+}
+
+
+em {color: #ecf0f1;}
+li.sendCommand {color: #ecf0f1;}
+
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    /*background-color: #f5f5f5;*/
+    background-color: #3e444c;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+/*for command.php only*/
+.show-url {
+  color: #ecf0f1;
+}
+
+iframe.show-result {
+  background-color: #fff;
+  border-radius: 4px;
+  max-width: 1080px;
+  max-height: 372px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.well, .panel.panel-default.main {
+  background-color: #fbfbfb;
+}
+
+div.commandList a.sendCommand span {visibility: hidden;line-height: 0;
+  font-size: 0;
+  color: transparent;}
+
+.embed-responsive.embed-responsive-4by3 {
+  padding-bottom:62%;
+}
+
+small.text-muted {
+  color: #dce4ec;
+  font-weight: 100;
+}
+select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 6px;
+}
+
+input[type="range"] {
+  width: 90%;
+  padding: 0;
+  height: 15px;
+  margin-right: 6px;
+  display: inline;
+  cursor: pointer;
+  background-color: #ecf0f1;
+  border-color: transparent;
+  color: transparent;
+  -webkit-appearance: none;
+  border-radius: 4px;
+  box-shadow: none;
+  background: #ff7a7a; /* Old browsers */
+  background: -moz-linear-gradient(left,  #ff7a7a 0%, #60abf8 54%, #4096ee 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ff7a7a), color-stop(54%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #ff7a7a 0%,#60abf8 54%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #ff7a7a 0%,#60abf8 54%,#4096ee 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #ff7a7a 0%,#60abf8 54%,#4096ee 100%); /* IE10+ */
+  background: linear-gradient(to right,  #ff7a7a 0%,#60abf8 54%,#4096ee 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7a7a', endColorstr='#4096ee',GradientType=1 ); /* IE6-9 */
+}
+
+input[type="range"]:active,
+input[type="range"]:focus,
+input[type="range"].active {
+  /*background-image: none;*/
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+span.range-value {
+  color: #18bc9c;
+}
+
+label {
+  font-weight: 200;
+}
+
+.modal label {
+  color: #dce4ec;
+  font-size: 80%;
+  line-height: 1.6em;
+}
+
+.no-border-input {
+  border: none;
+  color: #18bc9c;
+}
+
+.show-url {
+  background: #fff;
+  color: #2c3e50;
+  font-size: 70%;
+  font-weight: 100;
+  padding: 8px 12px 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 3px;
+  min-height: 33px;
+  min-width: 200px;
+}
+
+.modal-backdrop {
+  height: 150%;
+}
+
+.modal-header {
+  background: #18bc9c;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+}
+
+.modal-footer {
+  text-align: left;
+}
+
+.modal-footer .row {
+  padding-bottom: 7px;
+}
+
+/*.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s linear;
+  -moz-transition: opacity 0.5s linear;
+  -o-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+}
+.fade.in {
+  opacity: 1;
+}*/
+
+.commandList a:hover {
+  color: #18bc9c;
+}
+
+.accent {
+  color: #ec7d78;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+.brand {
+  display: block;
+  font-size: 80%;
+}
+.brand .text-muted a {
+  text-decoration: none;
+}
+
+.panel-heading {
+  background: #fff !important;
+  border: none !important;
+}
+.panel-body {
+  border: none !important;
+}
+.panel-default {
+  border: none;
+}
+
+.header-button {
+  margin-top: -40px;
+}
+
+.modal-dialog .form-group .form-control,
+.modal-dialog .input-group>.form-control,
+.modal-dialog .input-group>.input-group-addon,
+.modal-dialog .input-group>.input-group-btn>.btn {
+  height: 33px;
+  padding: 6px 9px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.slide-enter {
+  overflow-y: hidden;
+  max-height: 0px;
+  transition: max-height 1s linear;
+}
+
+.slide-enter.slide-enter-active {
+  max-height: 100px;
+}
+
+
+.slide-leave {
+  overflow-y: hidden;
+  max-height: 50px;
+  transition: max-height .3s linear;
+}
+
+.slide-leave.slide-leave-active {
+  max-height: 0px;
+}
+
+.title em {
+  color: #18bc9c;
+  font-style: normal;
+}
+
+
+@media (max-width: 768px) {
+  br {
+    display: none;
+  }
+}
+
+.panel-body .form-inline, .panel-body .form-horizontal {
+  padding: 10px 15px;
+}
+
+.panel-body .form-horizontal .control-label {
+  text-align: left;
+}
+
+.panel-body .form-horizontal .form-group {
+  margin-bottom: 3px;
+}
+
+.panel-body .form-horizontal .form-group .form-group {
+  margin-top: 14px;
+}
+
+.panel-body .form-inline .form-group label {
+  padding-right: 10px;
+}
+
+.panel-body .form-inline .form-group .radio label > span {
+  padding-left: 5px;
+  color: #18bc9c;
+}
+
+.cmd-string {
+  border-radius:4px 0 0 4px;border: none;
+}
+
+.cmd-value {
+  border: none;
+}
+
+.about-modal .modal-dialog {
+  width: 370px;
+}
+
+.row-small .btn-link {
+  font-size: 12px;
+  padding: 0 10px;
+}
